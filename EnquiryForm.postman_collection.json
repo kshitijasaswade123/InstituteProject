@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "31ae9107-a507-49b7-a99b-58a6d9edabaa",
+		"name": "EnquiryForm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248950"
+	},
+	"item": [
+		{
+			"name": "https://instituteproject.onrender.com/api/enquiry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://instituteproject.onrender.com/api/enquiry",
+					"protocol": "https",
+					"host": [
+						"instituteproject",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"enquiry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://instituteproject.onrender.com/api/enquiry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"sonal parchandrav\",\r\n    \"mobileNo\":\"9850105199\",\r\n    \"visitingDate\":\"5-28-2024\",\r\n    \"descrption\":\"for java Class \"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://instituteproject.onrender.com/api/enquiry",
+					"protocol": "https",
+					"host": [
+						"instituteproject",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"enquiry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://instituteproject.onrender.com/api/enquiry/663e42f0dde55c5614a58b32",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"sonal parchandrav\",\r\n    \"mobileNo\":\"9850105199\",\r\n    \"visitingDate\":\"5-26-2024\",\r\n    \"descrption\":\"for java Class \"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://instituteproject.onrender.com/api/enquiry/663e42f0dde55c5614a58b32",
+					"protocol": "https",
+					"host": [
+						"instituteproject",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"enquiry",
+						"663e42f0dde55c5614a58b32"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://instituteproject.onrender.com/api/enquiry/663e4534dde55c5614a58b37",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://instituteproject.onrender.com/api/enquiry/663e4534dde55c5614a58b37",
+					"protocol": "https",
+					"host": [
+						"instituteproject",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"enquiry",
+						"663e4534dde55c5614a58b37"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
