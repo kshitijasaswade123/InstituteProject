@@ -1,7 +1,11 @@
 const moongoose = require('mongoose');
 
 const enquirySchema = new moongoose.Schema({
-    name:{
+    fname:{
+        type:String,
+        required:true
+    },
+    lname:{
         type:String,
         required:true
     },
