@@ -17,7 +17,7 @@ const enquirySchema = new moongoose.Schema({
         type:Date,
         required:true
     },
-    descrption:{
+    description:{
         type:String,
         required:true
 
